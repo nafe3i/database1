@@ -65,3 +65,25 @@ INSERT INTO customers (full_name, email, phone, registration_date) VALUES
 ('Adil Karimi', 'adil@example.com', '0611000023', '2024-02-28'),
 ('Samir El Fadil', 'samir@example.com', '0611000024', '2024-03-01'),
 ('Zineb Hakam', 'zineb@example.com', '0611000025', '2024-03-02');
+
+INSERT INTO advisors (full_name, email) VALUES
+('Youssef Mansouri', 'y.mansouri@bank.com'),
+('Karim Oulad Ali', 'k.ouladali@bank.com'),
+('Bouchra Amiri', 'b.amiri@bank.com'),
+('Samira Idrissi', 's.idrissi@bank.com'),
+('Nabil Fassi', 'n.fassi@bank.com'),
+('Wafaa Benjelloun', 'w.benjelloun@bank.com'),
+('Hassan Tahiri', 'h.tahiri@bank.com'),
+('Aicha Mounir', 'a.mounir@bank.com'),
+('Othman Chami', 'o.chami@bank.com'),
+('Jalal Berrada', 'j.berrada@bank.com'),
+('Hind Chakir', 'h.chakir@bank.com'),
+('Rachida Badri', 'r.badri@bank.com'),
+('Said Mazouz', 's.mazouz@bank.com'),
+('Asmae Lahlou', 'a.lahlou@bank.com'),
+('Imad Bennani', 'i.bennani@bank.com'),
+('Omar Ghallab', 'o.ghallab@bank.com'),
+('Saad Krim', 's.krim@bank.com'),
+('Mouna Liazid', 'm.liazid@bank.com'),
+('Anas Hariri', 'a.hariri@bank.com'),
+('Ghita Idrissi', 'g.idrissi@bank.com');

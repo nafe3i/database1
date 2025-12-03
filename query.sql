@@ -16,3 +16,19 @@ SELECT account_number FROM accounts;
 
 
 SELECT * FROM transactions;
+
+SELECT * FROM accounts
+WHERE balance > 10000;
+
+
+SELECT * FROM accounts
+WHERE balance <= 0;
+
+SELECT * FROM transactions
+WHERE transaction_type = 'debit';
+
+SELECT * FROM transactions
+WHERE transaction_type = 'credit';
+
+SELECT * FROM transactions
+WHERE accountid = 1; 

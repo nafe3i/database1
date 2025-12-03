@@ -83,3 +83,6 @@ SELECT account.*,
 FROM accounts 
 JOIN customers  ON accounts.customerid = customers.id
 JOIN advisors adv ON Accounts.advisorid = advisors.advisor_id;
+
+ALTER TABLE accounts
+ADD created_at DATETIME DEFAULT CURRENT_TIMESTAMP;

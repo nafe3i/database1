@@ -32,3 +32,54 @@ WHERE transaction_type = 'credit';
 
 SELECT * FROM transactions
 WHERE accountid = 1; 
+
+
+SELECT customers.* 
+FROM customers 
+JOIN account 
+    ON customers.customerid = account.customerid
+WHERE account.advisor = 2;
+
+
+SELECT * FROM accounts
+WHERE account_type = 'Savings';
+
+
+SELECT * FROM transactions
+WHERE amount >= 500;
+
+SELECT * FROM transactions
+WHERE amount BETWEEN 100 AND 1000;
+
+SELECT * FROM accounts
+WHERE customerid = 1;
+
+SELECT * FROM accounts
+ORDER BY balance ASC;
+
+SELECT * FROM accounts
+ORDER BY balance ASC;
+
+SELECT * FROM transactions
+ORDER BY amount DESC;
+
+SELECT * FROM transactions
+ORDER BY amount DESC
+LIMIT 5;
+
+SELECT * FROM transactions
+ORDER BY transaction_date DESC;
+
+SELECT * FROM transactions
+ORDER BY transaction_date DESC;
+
+SELECT * FROM transactions
+ORDER BY transaction_date DESC
+LIMIT 3;
+
+SELECT account.*,
+       customers.full_name,
+       Advisors.full_name
+FROM accounts 
+JOIN customers  ON accounts.customerid = customers.id
+JOIN advisors adv ON Accounts.advisorid = advisors.advisor_id;

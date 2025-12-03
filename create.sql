@@ -39,3 +39,29 @@ CREATE TABLE transactions (
     
          FOREIGN KEY (accountid) REFERENCES accounts(account_id)
     );
+INSERT INTO customers (full_name, email, phone, registration_date) VALUES
+('Mohamed Amine', 'amine@example.com', '0611000001', '2024-01-10'),
+('Sara El Fassi', 'sara@example.com', '0611000002', '2024-01-15'),
+('Yassine Idrissi', 'yassine@example.com', '0611000003', '2024-01-20'),
+('Khadija Bensalem', 'khadija@example.com', '0611000004', '2024-01-25'),
+('Omar Essakhi', 'omar@example.com', '0611000005', '2024-02-01'),
+('Fatima Zahra', 'fzahra@example.com', '0611000006', '2024-02-02'),
+('Hicham Boulahcen', 'hicham@example.com', '0611000007', '2024-02-03'),
+('Nouhaila El Alaoui', 'nouhaila@example.com', '0611000008', '2024-02-04'),
+('Reda Lamrani', 'reda@example.com', '0611000009', '2024-02-05'),
+('Salma Chakir', 'salma@example.com', '0611000010', '2024-02-06'),
+('Ahmed El Khatib', 'ahmed@example.com', '0611000011', '2024-02-07'),
+('Imane Hafidi', 'imane@example.com', '0611000012', '2024-02-10'),
+('Hanae Tazi', 'hanae@example.com', '0611000013', '2024-02-12'),
+('Rachid Berrada', 'rachid@example.com', '0611000014', '2024-02-15'),
+('Said Najib', 'said@example.com', '0611000015', '2024-02-17'),
+('Laila Amrani', 'laila@example.com', '0611000016', '2024-02-20'),
+('Hamza El Yamani', 'hamza@example.com', '0611000017', '2024-02-22'),
+('Meryem Othmani', 'meryem@example.com', '0611000018', '2024-02-23'),
+('Ayman Lahrichi', 'ayman@example.com', '0611000019', '2024-02-24'),
+('Soukaina Chafiq', 'soukaina@example.com', '0611000020', '2024-02-25'),
+('Nadia Rami', 'nadia@example.com', '0611000021', '2024-02-26'),
+('Ismail Lbarki', 'ismail@example.com', '0611000022', '2024-02-27'),
+('Adil Karimi', 'adil@example.com', '0611000023', '2024-02-28'),
+('Samir El Fadil', 'samir@example.com', '0611000024', '2024-03-01'),
+('Zineb Hakam', 'zineb@example.com', '0611000025', '2024-03-02');
